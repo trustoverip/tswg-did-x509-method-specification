@@ -5,7 +5,7 @@ ToIP Template Specification
 
 **Latest Draft:**
 
-[https://github.com/trustoverip/specification-template](https://github.com/trustoverip/specification-template)
+[https://github.com/trustoverip/tswg-did-x509-method-specification](https://github.com/trustoverip/tswg-did-x509-method-specification)
 
 **Editors:**
 
@@ -15,8 +15,8 @@ ToIP Template Specification
 
 **Participate:**
 
-~ [GitHub repo](https://github.com/trustoverip/specification-template)
-~ [Commit history](https://github.com/trustoverip/specification-template/commits/main)
+~ [GitHub repo](https://github.com/trustoverip/tswg-did-x509-method-specification)
+~ [Commit history](https://github.com/trustoverip/tswg-did-x509-method-specification/commits/main)
 
 ------------------------------------
 
