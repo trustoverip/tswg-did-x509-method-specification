@@ -12,11 +12,13 @@
         "foreword.md",
         "introduction.md",
         "scope.md",
-        "normative_references.md",
-        "terms_and_definitions.md",
-        "clauses.md",
-        "annex.md",
-        "biblio.md"
+        "example.md",
+        "json_data_model.md",
+        "identifier_syntax.md",
+        "did_resolution_options.md",
+        "operations.md",
+        "security_privacy.md",
+        "references.md"
       ],
       "logo": "https://raw.githubusercontent.com/trustoverip/logo-assets/master/logos/ToIP-Logo-Color-SolidDimensional-Horizontal-LightOnDark.svg",
       "logo_link": "https://github.com/trustoverip/tswg-did-x509-method-specification",
