@@ -49,7 +49,7 @@ The following steps must be used to generate a corresponding DID document:
     "@context": "https://www.w3.org/ns/did/v1",
     "id": "<DID>",
     "verificationMethod": [{
-        "id": "<DID>#key-1",
+        "id": "<DID>#0",
         "type": "JsonWebKey2020",
         "controller": "<DID>",
         "publicKeyJwk": {
@@ -63,7 +63,7 @@ The following steps must be used to generate a corresponding DID document:
 
 ```json
 {
-    "assertionMethod": ["<DID>#key-1"]
+    "assertionMethod": ["<DID>#0"]
 }
 ```
 
@@ -71,7 +71,7 @@ The following steps must be used to generate a corresponding DID document:
 
 ```json
 {
-    "keyAgreement": ["<DID>#key-1"]
+    "keyAgreement": ["<DID>#0"]
 }
 ```
 
