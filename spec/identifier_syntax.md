@@ -1,5 +1,9 @@
 ## Identifier Syntax
 
+::: issue
+https://github.com/trustoverip/tswg-did-x509-method-specification/issues/5: Planned review by of this section by task force
+:::
+
 The `did:x509` ABNF definition can be found below, which uses the syntax in [RFC 5234](https://www.rfc-editor.org/rfc/rfc5234.html) and the corresponding definitions for `ALPHA` and `DIGIT`. The [W3C DID v1.0 specification](https://www.w3.org/TR/2022/REC-did-core-20220719/) contains the definition for `idchar`.
 
 ```abnf
@@ -25,6 +29,10 @@ In this draft, version is `0`.
 `::` is used to separate multiple policies from each other.
 
 The following sections define the policies and their policy-specific syntax.
+
+::: issue
+https://github.com/trustoverip/tswg-did-x509-method-specification/issues/8: Re-evaluate Rego vs alternative descriptions of policy.
+:::
 
 Validation of policies is formally defined using [Rego policies](https://www.openpolicyagent.org/docs/latest/policy-language/), though there is no expectation that implementations use Rego.
 
@@ -67,6 +75,10 @@ valid if {
 The overall Rego policy is assembled by concatenating the core Rego policy with the Rego policy fragments in the following sections, each one defining a `validate_policy` function.
 
 ### Percent-encoding
+
+::: issue
+https://github.com/trustoverip/tswg-did-x509-method-specification/issues/4: Can this section be rewritten more fully in terms of RFC 3986?
+:::
 
 Some of the policies that are defined in subsequent sections require values to be percent-encoded. Percent-encoding is specified in [RFC 3986 Section 2.1](https://www.rfc-editor.org/rfc/rfc3986#section-2.1). All characters that are not in the allowed set defined below must be percent-encoded:
 

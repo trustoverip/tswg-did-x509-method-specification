@@ -18,6 +18,10 @@ Finally, whether a `did:x509` should pin to an intermediate CA instead of a root
 
 ### Read
 
+::: issue 
+https://github.com/trustoverip/tswg-did-x509-method-specification/issues/10: Add discussion on timestamp of signature issuance relative to cert validity
+:::
+
 The Read operation takes as input a DID to resolve, together with the `x509chain` DID resolution option.
 
 The following steps must be used to generate a corresponding DID document:

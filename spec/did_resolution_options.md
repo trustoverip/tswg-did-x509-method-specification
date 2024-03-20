@@ -1,5 +1,9 @@
 ## DID resolution options
 
+::: issue 
+https://github.com/trustoverip/tswg-did-x509-method-specification/issues/6: Planned review by of this section by task force
+:::
+
 This DID method introduces a new DID resolution option called `x509chain`:
 
 Name: `x509chain`
